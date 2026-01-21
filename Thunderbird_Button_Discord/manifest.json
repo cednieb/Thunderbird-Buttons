@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "name": "TB_bt Discord",
+  "description": "Add 2 buttons ( normal button + vertical spaces toolbar ) that opens in a new tab: Discord.",
+  "version": "0.1",
+  "author": "ced",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "@ced.discord.bt",
+      "strict_min_version": "147.0"
+    }
+  },  
+  
+  
+  "icons": {
+    "32": "discord.svg"
+  },
+  
+  "browser_action": {
+  "default_title": "Discord",
+  "default_label": "Discord",
+  "default_icon": "discord.svg"
+  },
+  
+  
+  "background": {
+    "scripts": [
+      "redirect.js"
+    ]
+  }
+}
+

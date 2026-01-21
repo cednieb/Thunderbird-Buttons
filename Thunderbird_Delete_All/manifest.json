@@ -1,0 +1,44 @@
+{
+  "manifest_version": 2,
+  "name": "TB_bt Delete All",
+  "description": "Adds a Delete All button",  
+  "version": "0.1",
+  "author": "ced", 
+  "experiment_apis": {
+    "deleteAllButtonApi": {
+      "schema": "schema.json",
+      "parent": {
+        "scopes": [
+          "addon_parent"
+        ],
+        "paths": [
+          [
+            "deleteAllButtonApi"
+          ]
+        ],
+        "script": "deleteAllButtonApi.js"
+      }
+    }
+  },
+  "background": {
+    "scripts": [
+      "deleteAllButton.js"
+    ]
+  },
+  "browser_action": {
+    "default_title": "Delete All",
+    "default_label": "Delete All",
+    "default_icon": "deleteall.png"
+  },
+  "applications": {
+    "gecko": {
+      "id":  "@ced.deleteAll.bt",
+      "strict_min_version": "147.0",
+      "strict_max_version": "500.*"
+    }
+  },
+  "icons": {
+    "32": "deleteall.png",
+    "64": "deleteall.png"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+  "name": "TB_bt Whatsapp Web",
+  "description": "Add 2 buttons ( normal button + vertical spaces toolbar ) that opens in a new tab: Whatsapp Web.",
+  "version": "0.1",
+  "author": "ced",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "@ced.whatsapp.bt",
+      "strict_min_version": "147.0"
+    }
+  },  
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "https://*.whatsapp.com/*"
+    ],
+    
+  "browser_action": {
+  "default_title": "Whatsapp",
+  "default_label": "Whatsapp",
+  "default_icon": "whatsapp.svg"
+  },    
+    
+    
+  "icons": {
+    "32": "whatsapp.svg"
+  },
+  "background": {
+    "scripts": [
+      "redirect.js"
+    ]
+  }
+}
+

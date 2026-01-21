@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "TB_bt Google",
+  "description": "Add 2 buttons ( normal button + vertical spaces toolbar ) that opens in a new tab: Google.",
+  "version": "0.1",
+  "author": "ced",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "@ced.google.bt",
+      "strict_min_version": "147.0"
+    }
+  },  
+
+  "icons": {
+    "32": "google.svg"
+  },
+  
+  "browser_action": {
+  "default_title": "Google",
+  "default_label": "Google",
+  "default_icon": "google.svg"
+  },
+  
+  
+  "background": {
+    "scripts": [
+      "redirect.js"
+    ]
+  }
+}
+

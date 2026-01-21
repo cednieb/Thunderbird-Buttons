@@ -1,0 +1,13 @@
+[
+  {
+    "namespace": "deleteAllButtonApi",
+    "functions": [
+      {
+        "name": "deleteAllButton",
+        "type": "function",
+        "async": true,
+        "parameters": []
+      }
+    ]
+  }
+]
