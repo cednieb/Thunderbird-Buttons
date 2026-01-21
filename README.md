@@ -10,6 +10,7 @@ Extensions thunderbird
  
 ## Installation
 Paramètres -> Modules complémentaire -> La roue dentée -> Installer un module depuis un fichier...
+
 Choisir un fichier zip
 
 ![2](thunderbird2.png)
