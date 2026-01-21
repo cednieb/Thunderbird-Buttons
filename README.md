@@ -1,5 +1,7 @@
 Extensions thunderbird 
 
+Fonctionne sur la version 147.0
+
 ## Pour ajouter des boutons dans la barre d outils et dans la barre d espaces
 - ouvrir google dans un nouvel onglet
 - ouvrir discord dans un nouvel onglet
